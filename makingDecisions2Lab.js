@@ -245,3 +245,28 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+// for(i=1; i<=100; i++){
+
+//     if(i % 3 === 0 && i % 5 === 0){
+
+//         console.log("Devmountain")
+
+//     }
+//     else if(i % 3 === 0){
+
+//         console.log("Dev")
+
+//     }
+//     else if(i % 5 === 0){
+
+//         console.log("mountain")
+
+//     }
+//     else{
+
+//         console.log(i)
+
+//     }
+
+// }
