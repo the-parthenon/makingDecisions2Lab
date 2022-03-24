@@ -76,19 +76,19 @@ var score = 75
 
 //Code Here
 
-if(score >= 90){
-  console.log("You got an A!")
-}else if(score >= 80 && score < 90){
-  console.log("You got a B.")
-}else if(score >= 70 && score < 80){
-  console.log("Solid C.")
-}else if(score >= 60 && score < 70){
-  console.log("D's make Degrees.")
-}else if(score < 60){
-  console.log("An F. Shoulda dropped this course sooner.")
-}else{
-  console.log("Cannot make heads or tails of this score.")
-}
+// if(score >= 90){
+//   console.log("You got an A!")
+// }else if(score >= 80 && score < 90){
+//   console.log("You got a B.")
+// }else if(score >= 70 && score < 80){
+//   console.log("Solid C.")
+// }else if(score >= 60 && score < 70){
+//   console.log("D's make Degrees.")
+// }else if(score < 60){
+//   console.log("An F. Shoulda dropped this course sooner.")
+// }else{
+//   console.log("Cannot make heads or tails of this score.")
+// }
 
 
 ////////// Intermediate Problems //////////
@@ -96,23 +96,41 @@ if(score >= 90){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,75,1045,73];
 // Do not edit the code above.
 
 /*
-  Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
+  Create a variable named 'someNum' and set it equal to the fifth value of the 
+  'myFavoriteNumbers' array.
 */
+
+let someNum = myFavoriteNumbers[4]
+// console.log(someNum)
 
 //Code Here
 
 
 ////////// PROBLEM 7 //////////
 
-// Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
-// Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
+// Subscripting (accessing values using their index) an array can fail. 
+// What happens if you subscript to the 7th element, but there are not 7 elements in the array? 
+// Let's write some code to check for that. 
+// Use an if statement to check the length of the 'myFavoriteNumbers' array. 
+// If it's less than 7, log 'There are not enough elements in this array' to the console. 
+// If the length is more than 7, reassign the value of 'someNum' to the value of the 
+// 7th element in the array. 
+// (Hint: how can you make sure that your code works for exactly 7 elements? 
+// What index do you use to get the 7th element?)
 
 //Code Here
 
+if(myFavoriteNumbers.length < 7){
+  console.log("There are not enough elements in this array.")
+}else{
+  someNum = myFavoriteNumbers[6]
+}
+console.log(myFavoriteNumbers)
+console.log(someNum)
 
 ////////// PROBLEM 8 //////////
 
